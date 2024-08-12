@@ -1,0 +1,26 @@
+@import '/src/assets/styles/general.scss';
+
+.header {
+    @include flex-center;
+    padding: 50px 0 125px 0;
+    >nav {
+        border-radius: 13px;
+        padding: 23px 17px;
+        background: linear-gradient(150deg, #04071d 0%, #0c0e23 100%);
+        border: 1px solid rgb(255, 255, 255, .1);
+        >ul li a {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 110%;
+            letter-spacing: -0.03em;
+            color: #c1c2d3;
+            text-decoration: none;
+        }
+    }
+}
+
+.navItem {
+    @include flex-center;
+    align-items: center;
+    gap: 32px;
+}
