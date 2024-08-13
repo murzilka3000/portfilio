@@ -12,67 +12,57 @@ export interface workType {
 
 export const work: workType[]  = [
     {
-        img: '/testCard.svg',
-        title: '3D Solar System Planets to Explore',
-        desc: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+        img: '/бар.svg',
+        title: 'Бар в центре казани',
+        desc: 'Современный бар в центре Казани с уютной атмосферой и авторскими коктейлями.',
         icon_1: '/icon2.svg',
         icon_2: '/icon2.svg',
         icon_3: '/icon3.svg',
         Link: 'https://bar.solution-agency.ru/'
     },
     {
-        img: '/testCard.svg',
-        title: '3D Solar System Planets to Explore',
-        desc: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+        img: '/замки.svg',
+        title: 'Ремонт замков',
+        desc: 'Профессиональный ремонт замков с гарантией безопасности и оперативностью выполнения.',
         icon_1: '/icon2.svg',
         icon_2: '/icon2.svg',
         icon_3: '/icon3.svg',
         Link: 'https://bar.solution-agency.ru/'
     },
     {
-        img: '/testCard.svg',
-        title: '3D Solar System Planets to Explore',
-        desc: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+        img: '/казик.svg',
+        title: 'Игры',
+        desc: 'Разработка надежного и масштабируемого софта для игрового бизнеса с учетом всех требований индустрии.',
         icon_1: '/icon2.svg',
         icon_2: '/icon2.svg',
         icon_3: '/icon3.svg',
         Link: 'https://bar.solution-agency.ru/'
     },
     {
-        img: '/testCard.svg',
-        title: '3D Solar System Planets to Explore',
-        desc: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+        img: '/манки.svg',
+        title: 'Игра',
+        desc: 'Яркая и захватывающая игра ‘Crazy Monkeys’ с увлекательным геймплеем и бонусными уровнями.',
         icon_1: '/icon2.svg',
         icon_2: '/icon2.svg',
         icon_3: '/icon3.svg',
         Link: 'https://bar.solution-agency.ru/'
     },
     {
-        img: '/testCard.svg',
-        title: '3D Solar System Planets to Explore',
-        desc: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+        img: '/нотариус.svg',
+        title: 'Нотариус',
+        desc: 'Опытный нотариус, предоставляющий широкий спектр услуг с гарантией юридической точности.',
         icon_1: '/icon2.svg',
         icon_2: '/icon2.svg',
         icon_3: '/icon3.svg',
         Link: 'https://bar.solution-agency.ru/'
     },
     {
-        img: '/testCard.svg',
-        title: '3D Solar System Planets to Explore',
-        desc: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+        img: '/резьба.svg',
+        title: 'Резьба по металлу',
+        desc: 'Изысканная резьба по металлу с уникальными узорами и вниманием к деталям.',
         icon_1: '/icon2.svg',
         icon_2: '/icon2.svg',
         icon_3: '/icon3.svg',
         Link: 'https://bar.solution-agency.ru/'
-    },
-    {
-        img: '/testCard.svg',
-        title: '3D Solar System Planets to Explore',
-        desc: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
-        icon_1: '/icon2.svg',
-        icon_2: '/icon2.svg',
-        icon_3: '/icon3.svg',
-        Link: 'https://bar.solution-agency.ru/'
-    },
-   
+    },   
 ]
