@@ -27,7 +27,7 @@ export const work: workType[]  = [
         icon_1: '/icon2.svg',
         icon_2: '/icon2.svg',
         icon_3: '/icon3.svg',
-        Link: 'https://bar.solution-agency.ru/'
+        Link: 'https://securehome.co.il/'
     },
     {
         img: '/казик.svg',
@@ -36,7 +36,7 @@ export const work: workType[]  = [
         icon_1: '/icon2.svg',
         icon_2: '/icon2.svg',
         icon_3: '/icon3.svg',
-        Link: 'https://bar.solution-agency.ru/'
+        Link: 'https://biggame.solutions/'
     },
     {
         img: '/манки.svg',
@@ -45,7 +45,7 @@ export const work: workType[]  = [
         icon_1: '/icon2.svg',
         icon_2: '/icon2.svg',
         icon_3: '/icon3.svg',
-        Link: 'https://bar.solution-agency.ru/'
+        Link: 'https://crazzymonkeys.com/'
     },
     {
         img: '/нотариус.svg',
@@ -54,7 +54,7 @@ export const work: workType[]  = [
         icon_1: '/icon2.svg',
         icon_2: '/icon2.svg',
         icon_3: '/icon3.svg',
-        Link: 'https://bar.solution-agency.ru/'
+        Link: 'https://xn----7sbbajqav7bgehkjdnnv2f.xn--p1ai/'
     },
     {
         img: '/резьба.svg',
@@ -63,6 +63,6 @@ export const work: workType[]  = [
         icon_1: '/icon2.svg',
         icon_2: '/icon2.svg',
         icon_3: '/icon3.svg',
-        Link: 'https://bar.solution-agency.ru/'
+        Link: 'https://arma-demo.kuin.pro/'
     },   
 ]

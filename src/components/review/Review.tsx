@@ -14,7 +14,7 @@ const Review = () => {
   };
 
   return (
-    <section className={s.review}>
+    <section className={s.review} id='review'>
       <h2>Отзывы</h2>
         <div className={s.slide}>
           <div>

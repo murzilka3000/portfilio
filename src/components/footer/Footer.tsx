@@ -9,7 +9,7 @@ const Footer = () => {
   ]
 
   return (
-    <footer className={s.footer}>
+    <footer className={s.footer} id='contact'>
       <div>
         <p>Copyright ©2024 Николай Жидков</p>
       </div>

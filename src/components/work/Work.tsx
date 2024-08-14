@@ -3,7 +3,7 @@ import s from './Work.module.scss'
 
 const Work = () => {
   return (
-    <section>
+    <section id='work'>
     <h2 className={s.title}>Мои работы</h2>
        <div className={s.work}>
         {
@@ -23,7 +23,7 @@ const Work = () => {
                                     <img src={t.icon_3} alt="" />
                                 </div>
                                 <div className={s.linkBlock}>
-                                    <a href={t.Link}>
+                                    <a href={t.Link} target='_blank' rel='noopener noreferrer'>
                                         <span>Check Live Site</span>
                                     </a>
                                 </div>

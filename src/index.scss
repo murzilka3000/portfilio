@@ -92,6 +92,10 @@ table {
     color: $white;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   *,
   *::after,
   *::before {
