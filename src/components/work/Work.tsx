@@ -17,11 +17,6 @@ const Work = () => {
                             <h3>{t.title}</h3>
                             <p>{t.desc}</p>
                             <div className={s.block}>
-                                <div className={s.imgBlock}>
-                                    <img src={t.icon_1} alt="" />
-                                    <img src={t.icon_2} alt="" />
-                                    <img src={t.icon_3} alt="" />
-                                </div>
                                 <div className={s.linkBlock}>
                                     <a href={t.Link} target='_blank' rel='noopener noreferrer'>
                                         <span>Check Live Site</span>

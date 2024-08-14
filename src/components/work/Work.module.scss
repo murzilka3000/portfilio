@@ -5,6 +5,10 @@
     letter-spacing: -0.04em;
     text-align: center;
     margin-bottom: 48px;
+    @media screen and (max-width: 878px) {
+        font-size: 36px;
+        
+    }
 }
 
 .work {
@@ -13,6 +17,10 @@
     justify-content: center;
     gap: 40px;
     margin-bottom: 80px;
+    @media screen and (max-width: 878px) {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        
+    }
     >.card {
         background: linear-gradient(150deg, #04071d 0%, #0c0e23 100%);
         border-radius: 23px;
@@ -33,6 +41,10 @@
                 line-height: 112%;
                 letter-spacing: -0.02em;
                 margin-bottom: 18px;
+                @media screen and (max-width: 878px) {
+                    font-size: 24px;
+                    
+                }
             }
             >p {
                 font-weight: 400;

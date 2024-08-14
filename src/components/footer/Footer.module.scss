@@ -3,9 +3,17 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px 20px;
+    @media screen and (max-width: 767px) {
+        flex-direction: column-reverse;
+        gap: 1rem;
+        
+    }
     >div {
         display: flex;
         gap: 1rem;
+        @media screen and (max-width: 767px) {
+            gap: 0.5rem;
+        }
         >a {
             >div {
                 background: transparent;

@@ -6,6 +6,10 @@
     letter-spacing: -0.04em;
     text-align: center;
     margin-bottom: 48px;
+    @media screen and (max-width: 878px) {
+      font-size: 36px;
+      
+  }
   }
       >.slide {
         border-radius: 23px;
