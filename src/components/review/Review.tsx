@@ -1,8 +1,12 @@
 import { useState } from 'react';
 import s from './Review.module.scss';
 import { review } from './reviewData';
+import { useTranslation } from 'react-i18next';
 
 const Review = () => {
+
+  const {t} = useTranslation();
+
   const [count, setCount] = useState(0);
 
   const nextReview = () => {
@@ -15,15 +19,15 @@ const Review = () => {
 
   return (
     <section className={s.review} id='review'>
-      <h2>Отзывы</h2>
+      <h2>{t('Отзывы')}</h2>
         <div className={s.slide}>
           <div>
-            <h3>{review[count].title}</h3>
-            <p>{review[count].text}</p>
+            <h3>{t(review[count].title)}</h3>
+            <p>{t(review[count].text)}</p>
           </div>
           <a href="https://kwork.ru/user/murzilka300" target="_blank" rel="noopener noreferrer">
             <button>
-              <span>Все отзывы</span>
+              <span>{t("Все отзывы")}</span>
               <img src="/Arrow.svg" alt="" />
             </button>
           </a>

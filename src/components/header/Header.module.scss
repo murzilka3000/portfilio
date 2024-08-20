@@ -11,9 +11,13 @@
     transition: top 0.8s;
     >nav {
         border-radius: 13px;
-        padding: 23px 17px;
+        padding: 10px 17px;
         background: linear-gradient(150deg, #04071d 0%, #0c0e23 100%);
         border: 1px solid rgb(255, 255, 255, .1);
+        @media screen and (max-width: 768px) {
+            padding: 10px 10px;
+            
+        }
         >ul li a {
             font-weight: 500;
             font-size: 16px;
@@ -33,4 +37,7 @@
     @include flex-center;
     align-items: center;
     gap: 32px;
+    @media screen and (max-width: 768px) {
+        gap: 20px;
+    }
 }

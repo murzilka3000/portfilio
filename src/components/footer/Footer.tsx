@@ -1,6 +1,11 @@
+import { useTranslation } from 'react-i18next'
 import s from './Footer.module.scss'
+import {motion} from 'framer-motion'
 
 const Footer = () => {
+
+  const {t} = useTranslation()
+
   const links = [
     {link: 'https://t.me/murzilka300', img: '/tg.svg'},
     {link: 'https://www.instagram.com/nikolay85_?igsh=bndvMWJneG40OGc=', img: '/insta.svg'},
@@ -11,16 +16,20 @@ const Footer = () => {
   return (
     <footer className={s.footer} id='contact'>
       <div>
-        <p>Copyright ©2024 Николай Жидков</p>
+        <p>{t('Copyright ©2024 Николай Жидков')}</p>
       </div>
       <div>
         {
           links.map(t => {
             return (
               <a href={t.link} target="_blank" rel="noopener noreferrer">
-                <div>
+                <motion.div
+                  whileHover={{scale: 1.1}}
+                  whileTap={{scale: 0.9}}
+                  transition={{type: 'spring', stiffness: 300}}
+                >
                   <img src={t.img} alt="" />
-                </div>
+                </motion.div>
               </a>
             )
           })

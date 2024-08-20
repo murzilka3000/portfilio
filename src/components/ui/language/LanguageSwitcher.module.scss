@@ -1,0 +1,51 @@
+@import "/src//assets/styles/variables.scss";
+
+.languageSwitcher {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.selectedLanguage {
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    border-radius: 4px;
+    >img {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+    }
+}
+
+.languageList {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: $blue-background;
+    border: 1px solid rgb(255, 255, 255, .1);
+    border-radius: 4px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 1000;
+    border-radius: 20px;
+}
+
+.languageList li {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+    justify-content: center;
+    cursor: pointer;
+    >img {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+    }
+}
+
+.languageList img {
+    margin-right: 2px;
+}

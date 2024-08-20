@@ -12,7 +12,7 @@ export const work: workType[]  = [
         img: '/бар.svg',
         title: 'Бар в центре казани',
         desc: 'Современный бар в центре Казани с уютной атмосферой и авторскими коктейлями.',
-        Link: 'https://bar.solution-agency.ru/'
+        Link: 'https://jiguli-kzn.ru/'
     },
     {
         img: '/замки.svg',

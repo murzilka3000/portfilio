@@ -1,19 +1,23 @@
+import { useTranslation } from 'react-i18next';
 import s from './Hero.module.scss';
 
 const Hero = () => {
+
+  const { t } = useTranslation();
+
   return (
     <section className={s.hero} id='about'>
-      <p>Динамическая верстка</p>
+      <p>{t('Динамическая верстка')}</p>
       <h1>
-        Преобразование концепций в удобные <span>пользовательские интерфейсы</span> 
+        {t('Преобразование концепций в удобные')} <span>{t('пользовательские интерфейсы')}</span> 
       </h1>
       <span>
-        Привет! Меня зовут Николай. Я фронтенд разработчик из Алматы
+        {t('Привет! Меня зовут Николай. Я фронтенд разработчик из Алматы')}
       </span>
       <div>
         <a href="https://t.me/murzilka300" target="_blank" rel="noopener noreferrer">
           <button>
-            <span>связаться со мной в телеграм</span>
+            <span>{t('связаться со мной в телеграм')}</span>
             <img src="/Arrow.svg" alt="" />
           </button>
         </a>

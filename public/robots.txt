@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /images/
+Allow: /
+https://murzilkashop.ru/public/sitemap.xml
