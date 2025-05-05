@@ -102,3 +102,80 @@ table {
   *::before {
       box-sizing: border-box;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+  @keyframes nebulaShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  @keyframes subtleStars {
+    0% { background-position: 0 0; }
+    100% { background-position: -100px -50px; } /* Смещаем фон звезд */
+  }
+  
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: #ae52d4 #02030a; /* Фиолетовый ползунок, очень темный трек */
+  }
+  
+  ::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #02030a;
+    /* Анимированный звездный фон */
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.4) 1px, transparent 0),
+      radial-gradient(circle at 15px 10px, rgba(255, 255, 255, 0.3) 0.5px, transparent 0),
+      radial-gradient(circle at 40px 30px, rgba(255, 255, 255, 0.3) 1px, transparent 0),
+      radial-gradient(circle at 60px 15px, rgba(255, 255, 255, 0.4) 0.5px, transparent 0),
+      radial-gradient(circle at 80px 40px, rgba(255, 255, 255, 0.3) 1px, transparent 0);
+    background-size: 100px 50px; /* Размер паттерна звезд */
+    border-radius: 10px;
+    animation: subtleStars 20s linear infinite; /* Анимация движения звезд */
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: linear-gradient(
+      90deg,
+      #533480, /* Глубокий фиолетовый */
+      #ae52d4, /* Яркий фиолетово-розовый */
+      #4f94d4, /* Синий */
+      #533480  /* Возврат к фиолетовому для зацикливания */
+    );
+    background-size: 400% 100%; /* Увеличиваем размер фона для анимации */
+    box-shadow: 0 0 8px 1px rgba(174, 82, 212, 0.6); /* Фиолетовое свечение */
+    animation: nebulaShift 5s linear infinite; /* Применяем анимацию градиента */
+    transition: box-shadow 0.2s ease-out;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    box-shadow: 0 0 15px 3px rgba(213, 142, 240, 0.8); /* Усиленное свечение */
+    animation-play-state: paused; /* Останавливаем анимацию градиента при наведении */
+  }
+  
+  ::-webkit-scrollbar-thumb:active {
+    box-shadow: 0 0 10px 2px rgba(230, 180, 255, 0.7);
+    /* Можно добавить легкое изменение фона при нажатии, если нужно */
+    animation: none;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background: #02030a;
+  }

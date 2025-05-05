@@ -1,81 +1,228 @@
+@import '/src/assets/styles/general.scss';
+
+.workSection {
+  position: relative;
+  z-index: 2;
+  padding: 60px 0;
+}
+
 .title {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 100%;
-    letter-spacing: -0.04em;
-    text-align: center;
-    margin-bottom: 48px;
-    @media screen and (max-width: 878px) {
-        font-size: 36px;
-        
-    }
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 110%;
+  letter-spacing: -0.04em;
+  text-align: center;
+  margin-bottom: 60px;
+  position: relative;
+  background: linear-gradient(90deg, #7B5AFF, #00B8FF);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, rgba(123, 90, 255, 0), rgba(123, 90, 255, 1), rgba(123, 90, 255, 0));
+  }
+  
+  @media screen and (max-width: 878px) {
+    font-size: 36px;
+  }
+  
+  @media screen and (max-width: 576px) {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
 }
 
 .work {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-    justify-content: center;
-    gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  justify-content: center;
+  gap: 40px;
+  margin: 0 20px 100px;
+  
+  @media screen and (max-width: 878px) {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  
+  @media screen and (max-width: 576px) {
+    gap: 30px;
     margin-bottom: 80px;
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  background: linear-gradient(150deg, rgba(4, 7, 29, 0.8) 0%, rgba(12, 14, 35, 0.9) 100%);
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transform-style: preserve-3d;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1), 
+              box-shadow 0.5s cubic-bezier(0.23, 1, 0.32, 1),
+              border-color 0.5s cubic-bezier(0.23, 1, 0.32, 1), 
+              opacity 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  
+  &.active {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 30px rgba(123, 90, 255, 0.15);
+    border-color: rgba(123, 90, 255, 0.3);
+  }
+  
+  &:hover:not(.active) {
+    transform: translateY(-7px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    border-color: rgba(123, 90, 255, 0.2);
+  }
+}
+
+.imgContainer {
+  position: relative;
+  overflow: hidden;
+  height: 220px;
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .tags {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    
+    .tag {
+      padding: 5px 10px;
+      background: rgba(123, 90, 255, 0.3);
+      backdrop-filter: blur(5px);
+      border-radius: 30px;
+      font-size: 12px;
+      font-weight: 600;
+      color: white;
+    }
+  }
+}
+
+.card:hover .tags, 
+.active .tags {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.bottomContainer {
+  padding: 24px 20px;
+  
+  h3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    margin-bottom: 18px;
+    color: #fff;
+    transition: color 0.3s ease;
+    
     @media screen and (max-width: 878px) {
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        
+      font-size: 24px;
     }
-    >.card {
-        background: linear-gradient(150deg, #04071d 0%, #0c0e23 100%);
-        border-radius: 23px;
-        padding: 23px 17px;
-        >.imgContainer {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 36px;
-            >img {
-                width: 100%;
-                border-radius: 14px;
-            }
-        }
-        >.bottomContainer {
-            >h3 {
-                font-weight: 700;
-                font-size: 32px;
-                line-height: 112%;
-                letter-spacing: -0.02em;
-                margin-bottom: 18px;
-                @media screen and (max-width: 878px) {
-                    font-size: 24px;
-                    
-                }
-            }
-            >p {
-                font-weight: 400;
-                font-size: 20px;
-                line-height: 130%;
-                color: #bec1dd;
-                margin-bottom: 24px;
-            }
-            >.block {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                >.imgBlock {
-                    display: flex;
-                    align-items: center;
-                    gap: 10px;
-                }
-            }
-            .linkBlock {
-                >a {
-                    font-weight: 500;
-                    font-size: 20px;
-                    line-height: 120%;
-                    letter-spacing: -0.02em;
-                    color: #cbacf9;
-                    >img {
-                        background-color: #cbacf9;
-                    }
-                }
-            }
-        }
-        
+    
+    @media screen and (max-width: 576px) {
+      font-size: 22px;
     }
+  }
+  
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(190, 193, 221, 0.9);
+    margin-bottom: 30px;
+    
+    @media screen and (max-width: 576px) {
+      font-size: 16px;
+      margin-bottom: 24px;
+    }
+  }
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.linkBlock {
+  position: relative;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #7B5AFF;
+    transition: width 0.3s ease;
+  }
+  
+  &:hover::after {
+    width: 100%;
+  }
+  
+  a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #7B5AFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+    .arrow {
+      transition: transform 0.3s ease;
+    }
+    
+    &:hover {
+      color: #00B8FF;
+      
+      .arrow {
+        transform: translateX(5px);
+      }
+    }
+  }
+}
+
+// Состояние активной карточки
+.card.active {
+  h3 {
+    color: #cbacf9;
+  }
+  
+  .linkBlock a {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(203, 172, 249, 0.5);
+  }
 }

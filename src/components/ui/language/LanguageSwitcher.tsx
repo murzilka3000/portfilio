@@ -2,7 +2,11 @@ import { useTranslation } from 'react-i18next';
 import s from './LanguageSwitcher.module.scss';
 import { useState } from 'react';
 
-const LanguageSwitcher = () => {
+interface LanguageSwitcherProps {
+  className?: string;
+}
+
+const LanguageSwitcher = ({ className }: LanguageSwitcherProps) => {
     const { i18n } = useTranslation();
     const [isOpen, setIsOpen] = useState(false);
     const [selectedLanguage, setSelectedLanguage] = useState('en');
@@ -18,7 +22,7 @@ const LanguageSwitcher = () => {
     };
 
     return (
-        <div className={s.languageSwitcher}>
+        <div className={`${s.languageSwitcher} ${className || ''}`}>
             <div className={s.selectedLanguage} onClick={toggleDropdown}>
                 <img src={`/${selectedLanguage}.svg`} alt={selectedLanguage} />
             </div>

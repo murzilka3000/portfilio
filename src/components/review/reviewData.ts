@@ -3,44 +3,108 @@ import { v1 } from 'uuid';
 interface Review {
     text: string,
     id: string,
-    title: string
+    title: string,
+    rating?: number,
+    avatar?: string,
+    client?: string,
+    date?: string
 }   
 
 export const review: Review[] = [
     {
-        text: 'Спасибо большое! Человек ответственный, сделал все в срок без лишних вопросов. Буду обращаться еще, специалист в своей области',
+        text: 'reviews.alexanderK.text', // Ключ
         id: v1(),
-        title: 'Доработка сайта'
-    },
-
-    {
-        text: 'работа по Вëрстка сайта на WordPress ELEMENTOR - выполненна, быстро, качественно. Исполнителя рекомендуем.',
-        id: v1(),
-        title: 'Верстка элементор'
-    },
-
-    {
-        text: 'Я очень довольна выполненным заказом! Сайт на реакт получился просто замечательным.   Работал быстро и качественно, учли все мои пожелания и сделали все в сжатые сроки. Очень приятно было общаться, очень ответственно относится к своей работе.',
-        id: v1(),
-        title: 'Сайт на react'
-    },
-
-    {
-        text: 'Обращались за версткой футера и шапки сайта - очень благодарен Николаю за профессиональный и качественный подход. Все получилось отлично, то что нужно) с нашей стороны были корректировки, просили добавить некоторые моменты, но и их удалось быстро реализовать. Огромное вам спасибо, будем обращаться к вам еще) удачи!',
-        id: v1(),
-        title: 'Верстка html'
-    },
-
-    {
-        text: 'Все супер. Я очень трепетный и внимательный клиент, и при этом все исправления были сделаны на отлично. Николай очень спокойно выдерживал все мои зацепки, придирки и все выполнял. Работой доволен!',
-        id: v1(),
-        title: 'Верстка'
+        title: 'reviews.alexanderK.title', // Ключ
+        rating: 5,
+        client: 'reviews.alexanderK.client', // Ключ
+        date: '15.03.2025'
     },
     {
-        text: 'Николай с задачей по вёрстке сайта и дальнейшей натяжкой на ВордПресс справился на отлично. Сайт достаточной сложный, масса нюансов, но все правки поправлены, просьбы учтены. Без сомнений буду обращаться ещё не раз. Порядочный исполнитель. Рекомендую.',
+        text: 'reviews.olgaM.text', // Ключ
         id: v1(),
-        title: 'Разработка сайта на Wordpress'
+        title: 'reviews.olgaM.title', // Ключ
+        rating: 4,
+        client: 'reviews.olgaM.client', // Ключ
+        date: '23.02.2025'
     },
-    
-   
-]
+    {
+        text: 'reviews.marinaV.text', // Ключ
+        id: v1(),
+        title: 'reviews.marinaV.title', // Ключ
+        rating: 5,
+        client: 'reviews.marinaV.client', // Ключ
+        date: '10.01.2025'
+    },
+    {
+        text: 'reviews.dmitryP.text', // Ключ
+        id: v1(),
+        title: 'reviews.dmitryP.title', // Ключ
+        rating: 5,
+        client: 'reviews.dmitryP.client', // Ключ
+        date: '05.12.2024'
+    },
+    {
+        text: 'reviews.igorS.text', // Ключ
+        id: v1(),
+        title: 'reviews.igorS.title', // Ключ
+        rating: 4,
+        client: 'reviews.igorS.client', // Ключ
+        date: '18.11.2024'
+    },
+    {
+        text: 'reviews.artemN.text', // Ключ
+        id: v1(),
+        title: 'reviews.artemN.title', // Ключ
+        rating: 5,
+        client: 'reviews.artemN.client', // Ключ
+        date: '02.10.2024'
+    },
+    {
+        text: 'reviews.sergeyL.text', // Ключ
+        id: v1(),
+        title: 'reviews.sergeyL.title', // Ключ
+        rating: 5,
+        client: 'reviews.sergeyL.client', // Ключ
+        date: '09.04.2025'
+    },
+    {
+        text: 'reviews.alinaB.text', // Ключ
+        id: v1(),
+        title: 'reviews.alinaB.title', // Ключ
+        rating: 4,
+        client: 'reviews.alinaB.client', // Ключ
+        date: '27.03.2025'
+    },
+    {
+        text: 'reviews.victorG.text', // Ключ
+        id: v1(),
+        title: 'reviews.victorG.title', // Ключ
+        rating: 5,
+        client: 'reviews.victorG.client', // Ключ
+        date: '12.03.2025'
+    },
+    {
+        text: 'reviews.ekaterinaR.text', // Ключ
+        id: v1(),
+        title: 'reviews.ekaterinaR.title', // Ключ
+        rating: 5,
+        client: 'reviews.ekaterinaR.client', // Ключ
+        date: '03.03.2025'
+    },
+    {
+        text: 'reviews.romanD.text', // Ключ
+        id: v1(),
+        title: 'reviews.romanD.title', // Ключ
+        rating: 5,
+        client: 'reviews.romanD.client', // Ключ
+        date: '24.02.2025'
+    },
+    {
+        text: 'reviews.tatianaS.text', // Ключ
+        id: v1(),
+        title: 'reviews.tatianaS.title', // Ключ
+        rating: 4,
+        client: 'reviews.tatianaS.client', // Ключ
+        date: '14.02.2025'
+    },
+];

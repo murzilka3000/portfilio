@@ -3,15 +3,29 @@
     "проекты": "projects",
     "контакты": "contacts",
     "отзывы": "reviews",
+    "технологии": "technologies",
+    "процесс": "process",
+    "Вьетнам, Хошимин": "Vietnam, Ho Chi Minh",
+    "достижения": "achievements",
+    "навыки": "skills",
+    "портфолио": "portfolio",
+    "Имя": "Name",
+    "Локация": "Location",
+    "Готов обсудить ваш проект и ответить на любые вопросы": "I’m ready to discuss your project and answer any questions you may have",
+
     "Динамическая верстка": "Dynamic layout",
     "Преобразование концепций в удобные": "Transforming concepts into ",
     "пользовательские интерфейсы": "user-friendly interfaces",
     "Привет! Меня зовут Николай. Я фронтенд разработчик из Алматы": "Hello! My name is Nikolay. I am a frontend developer from Almaty",
     "связаться со мной в телеграм": "contact me in telegram",
+    
     "Мои работы": "My works",
     "Перейти на сайт": "Go to site",
     "Игры": "Games",
     "Разработка надежного и масштабируемого софта для игрового бизнеса с учетом всех требований индустрии.": "Development of reliable and scalable software for the gaming business, taking into account all the requirements of the industry.",
+    "Резьба по металлу": "Metal engraving",
+    "Изысканная резьба по металлу с уникальными узорами и вниманием к деталям.": "Exquisite metal engraving with unique patterns and attention to detail.",
+    
     "Отзывы": "Reviews",
     "Спасибо большое! Человек ответственный, сделал все в срок без лишних вопросов. Буду обращаться еще, специалист в своей области": "Thank you very much! A responsible person, did everything on time without unnecessary questions. I will contact you again, a specialist in your field.",
     "Доработка сайта": "Website refinement",
@@ -24,10 +38,430 @@
     "Все супер. Я очень трепетный и внимательный клиент, и при этом все исправления были сделаны на отлично. Николай очень спокойно выдерживал все мои зацепки, придирки и все выполнял. Работой доволен!": "Everything is super. I am a very meticulous and attentive client, and yet all the corrections were made perfectly. Nikolay very calmly endured all my gripes, nitpicking and did everything. I am satisfied with the work!",
     "Верстка": "Layout",
     "Все отзывы": "All reviews",
-    "Copyright ©2024 Николай Жидков": "Copyright ©2024 Nikolay Zhidkov",
+    "Copyright 2025 Николай Жидков": "Copyright 2025 Nikolay Zhidkov",
     "Интернет магазин": "Online shop",
     "Разработка интернет магазина с учетом всех требований индустрии.": "Development of an online shop with consideration of all requirements of the industry.",
     "Производитель мясной продукции": "Producer of meat products",
     "Разработка сайта каталога мясной продукции с учетом всех требований индустрии.": "Development of a site catalogue of meat products with consideration of all requirements of the industry.",
-    "Николай с задачей по вёрстке сайта и дальнейшей натяжкой на ВордПресс справился на отлично. Сайт достаточной сложный, масса нюансов, но все правки поправлены, просьбы учтены. Без сомнений буду обращаться ещё не раз. Порядочный исполнитель. Рекомендую.": "Nikolay with a task of website design and further refinement on Wordpress perfectly. The site is sufficiently complex, a lot of inconveniences, but all the corrections were made, the requests were taken into account. Without doubt, I will contact you again. A reliable performer. I recommend."
+    "Николай с задачей по вёрстке сайта и дальнейшей натяжкой на ВордПресс справился на отлично. Сайт достаточной сложный, масса нюансов, но все правки поправлены, просьбы учтены. Без сомнений буду обращаться ещё не раз. Порядочный исполнитель. Рекомендую.": "Nikolay with a task of website design and further refinement on Wordpress perfectly. The site is sufficiently complex, a lot of inconveniences, but all the corrections were made, the requests were taken into account. Without doubt, I will contact you again. A reliable performer. I recommend.",
+
+    "Технический стек": "Tech Stack",
+    "Мой технический стек": "My Tech Stack",
+    "Фронтенд": "Frontend",
+    "Бэкенд": "Backend",
+    "Мобильное": "Mobile",
+    "Инструменты": "Tools",
+    "Дизайн": "Design",
+    "Все": "All",
+    "Инфраструктура": "Infrastructure",
+    "лет опыта": "years of experience",
+    "реализованных проектов": "completed projects",
+    "счастливых клиентов": "happy clients",
+    "строк кода": "lines of code",
+
+    "Процесс работы": "Work Process",
+    "Мой подход к разработке": "My Development Approach",
+    "Анализ требований": "Requirements Analysis",
+    "Изучение требований проекта, определение целей и задач, анализ целевой аудитории и конкурентов": "Studying project requirements, defining goals and objectives, analyzing target audience and competitors",
+    "Проектирование": "Design",
+    "Создание архитектуры, выбор технологий, разработка структуры данных и интерфейсов": "Creating architecture, selecting technologies, developing data structures and interfaces",
+    "Разработка": "Development",
+    "Кодирование с соблюдением лучших практик, регулярные коммиты, код-ревью и рефакторинг": "Coding following best practices, regular commits, code reviews and refactoring",
+    "Тестирование": "Testing",
+    "Модульное и интеграционное тестирование, проверка на разных устройствах и браузерах": "Unit and integration testing, verification on different devices and browsers",
+    "Внедрение": "Deployment",
+    "Развертывание проекта, настройка CI/CD, мониторинг работы системы": "Project deployment, CI/CD setup, system monitoring",
+    "Поддержка": "Support",
+    "Устранение ошибок, улучшение производительности, обновление функционала": "Bug fixing, performance improvement, functionality updates",
+
+    "Достижения и метрики": "Achievements & Metrics",
+    "Мои профессиональные показатели": "My Professional Indicators",
+    "Успешно завершенных проектов": "Successfully Completed Projects",
+    "Сделанных коммитов": "Commits Made",
+    "Счастливых клиентов": "Happy Clients",
+    "Часов разработки": "Development Hours",
+    "Сертификатов": "Certificates",
+    "Технических навыков": "Technical Skills",
+
+    "Связаться со мной": "Contact Me",
+    "Email": "Email",
+    "Копировать email": "Copy email",
+    "Скопировано!": "Copied!",
+    "Социальные сети": "Social Networks",
+    "Ваше имя": "Your Name",
+    "Введите ваше имя": "Enter your name",
+    "Введите ваш email": "Enter your email",
+    "Сообщение": "Message",
+    "Введите ваше сообщение": "Enter your message",
+    "Отправить сообщение": "Send Message",
+    "Отправить": "Send",
+    "Отправка...": "Sending...",
+    "Сообщение отправлено!": "Message Sent!",
+    "Ошибка отправки": "Sending Error",
+    
+    "Квалификация разработчика": "Developer Qualification",
+    "Категория": "Category",
+    "Уровень": "Level",
+    "Описание": "Description",
+    "Сканирование навыка...": "Scanning skill...",
+    "Навык": "Skill",
+    
+    "Языки программирования": "Programming Languages",
+    "Фронтенд разработка": "Frontend Development",
+    "Бэкенд разработка": "Backend Development",
+    "Дизайн интерфейсов": "Interface Design",
+    "Базы данных": "Databases",
+
+
+    "hero_sub": "From MVPs to fully polished products — I’ve got you covered",
+    "hero_title": "Frontend that performs and converts",
+    "hero_desk": "Smart solutions for modern websites, platforms, and services",
+    "Связаться": "Contact Me",
+
+
+
+
+    
+        "skills": {
+          "sectionTitle": "Tech Stack", 
+          "category": {
+            "frontend": "Frontend",   
+            "design": "Design",     
+            "frameworks": "Frameworks", 
+            "tools": "Tools",       
+            "cms_backend": "CMS & Backend" 
+          },
+          "react": {
+            "name": "React",
+            "description": "Building fast, responsive, and scalable user interfaces using hooks, routing, state management, and reusable components for modern web applications."
+          },
+          "wordpress": {
+            "name": "WordPress",
+            "description": "Developing and customizing websites using the WordPress CMS. Experienced with theme development, plugin integration, and creating flexible content-managed solutions."
+          },
+          "elementor": {
+            "name": "Elementor",
+            "description": "Efficiently building visually rich WordPress sites with the Elementor page builder. Creating custom layouts and designs using its drag-and-drop interface and widget ecosystem."
+          },
+          "scss": {
+            "name": "SCSS/SASS",
+            "description": "Writing maintainable, organized, and powerful CSS using SCSS. Leveraging features like variables, nesting, mixins, and imports for efficient styling workflows."
+          },
+          "javascript": {
+            "name": "JavaScript",
+            "description": "Developing interactive and dynamic web experiences with JavaScript. Utilizing ES6+ features, asynchronous programming, DOM manipulation, and framework integration."
+          },
+          "tailwind": {
+            "name": "Tailwind CSS",
+            "description": "Rapidly building custom user interfaces with the Tailwind CSS utility-first framework. Creating consistent, responsive designs directly within the markup for faster development cycles."
+          },
+          "php": {
+            "name": "PHP",
+            "description": "Developing server-side logic and backend functionality using PHP. Experience primarily within the WordPress ecosystem for theme/plugin development and site customization."
+          },
+          "nextjs": {
+            "name": "Next.js",
+            "description": "Building performant and SEO-friendly React applications with the Next.js framework. Utilizing features like Server-Side Rendering (SSR), Static Site Generation (SSG), and API routes."
+          },
+          "axios": {
+            "name": "Axios",
+            "description": "Making asynchronous HTTP requests from the browser or Node.js using the promise-based Axios library. Efficiently handling API communication and data fetching."
+          },
+          "woocommerce": {
+            "name": "WooCommerce",
+            "description": "Implementing and customizing eCommerce functionality within WordPress using WooCommerce. Building online stores, managing products, and integrating payment solutions."
+          },
+          "gsap": {
+            "name": "GSAP",
+            "description": "Creating high-performance, complex animations and interactive effects for web interfaces using the GreenSock Animation Platform (GSAP) to enhance user experience."
+          }
+        },
+    "terminal": {
+        "windowTitle": "skills-explorer",
+        "initializing": "> Initializing system...",
+        "scanning": "> Scanning skill...",
+        "skillLabel": "Skill",
+        "categoryLabel": "Category",
+        "levelLabel": "Level",
+        "descriptionLabel": "Description",
+        "initialized": "> System initialized",
+        "loadingDb": "> Loading skill database...",
+        "connectedMatrix": "> Connected to skill matrix",
+        "ready": "> Ready for exploration",
+        "selectSkill": "> Select skill for details"
+    },
+
+
+    "metrics": {
+      "projects": {
+        "label": "Projects Completed"
+      },
+      "clients": {
+        "label": "Returning Clients"
+      },
+      "experience": {
+        "label": "Years of Experience"
+      },
+      "reviews": {
+        "label": "Positive Reviews"
+      }
+    },
+
+    
+    
+      "workprocess": {
+        "sectionTitle": "Work Process",
+        "1": {
+          "step": "Analysis",
+          "title": "Layout Review & Requirements Gathering",
+          "description": "I start by receiving your finalized design layout (Figma, Sketch, PSD, etc.). I thoroughly review all pages, element states, responsive versions, and technical specifications. I'll ask clarifying questions to ensure a complete understanding of the project goals and to anticipate any challenges before development begins.",
+          "features": {
+            "feature1": "Layout Review (Figma/Sketch/PSD)",
+            "feature2": "Specification Analysis",
+            "feature3": "Requirement Clarification",
+            "feature4": "Timeline & Complexity Estimation"
+          },
+          "quote": {
+            "text": "Nikolai quickly understood our design and asked several important questions about interactive elements, which helped avoid misunderstandings later.",
+            "client": "Anna, 'Vzglyad' Design Studio"
+          }
+        },
+        "2": {
+          "step": "Development",
+          "title": "Responsive Frontend Development",
+          "description": "This is where the design comes to life. I write clean, semantic HTML and meticulously craft styles (SCSS/Tailwind) to precisely match the approved layout across all devices. Necessary interactivity and animations are implemented using modern JavaScript (ES6+).",
+          "features": {
+            "feature1": "HTML5 / CSS3 / SCSS",
+            "feature2": "Responsive & Cross-Browser Layout",
+            "feature3": "JavaScript (ES6+)",
+            "feature4": "Pixel Perfect (when required)"
+          }
+        },
+        "3": {
+          "step": "Integration",
+          "title": "CMS Integration (WordPress, etc.)",
+          "description": "If your project needs a Content Management System (primarily WordPress), I seamlessly integrate the frontend code into a custom theme. I configure necessary post types, custom fields (using ACF), and page templates to ensure managing your content is straightforward and efficient.",
+          "features": {
+            "feature1": "WordPress Theme Development",
+            "feature2": "WooCommerce (if needed)",
+            "feature3": "Advanced Custom Fields (ACF)",
+            "feature4": "Admin Panel Setup"
+          },
+          "quote": {
+            "text": "The WordPress integration was excellent! The admin panel turned out intuitive, and our managers easily add content.",
+            "client": "Sergey, Marketing Agency"
+          }
+        },
+        "4": {
+          "step": "Testing",
+          "title": "Quality Assurance & Optimization",
+          "description": "Rigorous testing is crucial. I conduct thorough checks across various devices and browsers to ensure full functionality. This includes testing forms, interactive elements, optimizing load speed (Core Web Vitals), and resolving any identified bugs.",
+          "features": {
+            "feature1": "Device Testing",
+            "feature2": "Cross-Browser Testing",
+            "feature3": "Speed Optimization (Core Web Vitals)",
+            "feature4": "Code Debugging"
+          }
+        },
+        "5": {
+          "step": "Launch",
+          "title": "Site Deployment & Client Handover",
+          "description": "The final step involves deploying the completed website to your hosting environment. This includes configuring the domain and installing the SSL certificate. I provide all necessary access credentials and clear instructions for site management, especially if a CMS is involved.",
+          "features": {
+            "feature1": "Hosting Deployment",
+            "feature2": "Server/Domain Setup",
+            "feature3": "Access Handover",
+            "feature4": "Basic Post-Launch Support"
+          },
+          "quote": {
+            "text": "The site was launched exactly on schedule. Nikolai helped with the migration to our hosting and explained everything clearly. We are satisfied with the work!",
+            "client": "Elena, Online School"
+          }
+        }
+      },
+
+
+
+
+
+      
+        "portfolio": {
+          "igaming": {
+            "title": "B2B Platform for iGaming",
+            "description": "Developed a modern frontend for a comprehensive B2B iGaming platform showcasing solutions for casinos, sports betting, and payment systems."
+          },
+          "yakubowitch": {
+            "title": "Luxury Jewelry Brand E-commerce Store",
+            "description": "Created an exclusive frontend for the luxury jewelry brand Yakubowitch's online store, focusing on sophisticated UI/UX and smooth animations."
+          },
+          "slovoMyasnika": {
+            "title": "Meat Producer Product Catalog Website",
+            "description": "Developed a corporate website and product catalog for the 'Slovo Myasnika' meat processing plant, focusing on clear product presentation and user-friendly navigation."
+          },
+          "onlineSlot": {
+            "title": "Online Casino Review Portal",
+            "description": "Built the frontend for an affiliate portal featuring reviews and ratings of online casinos and slots, designed to attract and inform users."
+          },
+          "werdsworld": {
+            "title": "Branding & Digital Design Studio",
+            "description": "Website for Werdsworld – a creative studio focused on building strong brands and effective digital solutions, including strategy, web design, and development."
+          },
+          "martal": {
+            "title": "B2B Lead Generation Service Website",
+            "description": "Developed a professional website for Martal Capital, a leader in outsourced B2B sales and lead generation. The site effectively presents services, methodology, and attracts potential clients."
+          },
+          "horgos": {
+            "title": "New Car Export Company Website",
+            "description": "Developed a website for Horgos Autoexport, specializing in direct supply of new cars from China, Korea, and the UAE. The site features a vehicle catalog and information on export services."
+          },
+          "jiguli": {
+            "title": "Zhiguli Bar & Restaurant Website (Kazan)",
+            "description": "Created an atmospheric website for the Zhiguli bar and restaurant in Kazan, showcasing the menu, event schedule, and providing online table booking functionality."
+          },
+          "kitchen": {
+            "title": "Custom Kitchen Furniture Manufacturer",
+            "description": "Developed a catalog website for a company specializing in the design and production of custom kitchen furniture. The site showcases a portfolio, materials, and allows quote requests."
+          },
+          "vartocid": {
+            "title": "Vartocid Skin Care Product Website",
+            "description": "Developed a clean and informative website for Vartocid – a modern product for aesthetic skin care at home. The site effectively highlights product benefits, provides clear instructions, and helps users easily find purchasing information."
+          },
+          "aztsk": {
+            "title": "AZT SK Special Equipment Parts Catalog Website",
+            "description": "Developed a functional catalog website for AZT SK, specializing in supplying parts for agricultural and heavy machinery. The site provides easy searching through an extensive catalog and order information."
+          }
+        },
+      
+        
+
+        
+          "timeline": {
+            "sectionTitle": "Key Milestones",
+            "2025": {
+              "title": "Focus on React & Performance Optimization",
+              "description": "Successfully implemented complex interfaces for e-commerce and B2B platforms using React & TypeScript. Dedicated focus on performance optimization (Core Web Vitals) and delivering high-quality user experiences (UX)."
+            },
+            "2024": {
+              "title": "Expanding Tech Stack & Agency Partnerships",
+              "description": "Mastered Next.js for building SEO-friendly applications. Began successful collaborations with design studios and marketing agencies on comprehensive projects, earning initial repeat business from satisfied clients."
+            },
+            "2023": {
+              "title": "Launched Freelance Frontend Career",
+              "description": "Transitioned to freelance after building foundational experience. Delivered initial commercial projects involving layout coding and site development using JavaScript/React, established a portfolio, and received positive testimonials validating the quality of work."
+            }
+          },
+
+
+
+
+
+          
+            "charts": {
+              "technologies": {
+                "title": "Technology Focus",
+                "data": {
+                  "reactNext": "React / Next.js",
+                  "wordpress": "WordPress (Themes/Plugins)",
+                  "markup": "Markup (HTML/CSS/JS/SCSS)"
+                }
+              },
+              "projects": {
+                "title": "Project Types",
+                "data": {
+                  "webApps": "Web Applications (React/Next)",
+                  "corporate": "Corporate Websites",
+                  "ecommerce": "E-commerce",
+                  "landings": "Landing Pages"
+                }
+              }
+            },
+
+
+
+
+
+
+
+
+
+            
+              "reviews": {
+                "sectionTitle": "Client Testimonials", 
+                "alexanderK": {
+                  "text": "Thank you very much! A responsible person, did everything on time without unnecessary questions. Will contact again, a specialist in his field.",
+                  "title": "Website Refinement",
+                  "client": "Alexander K."
+                },
+                "olgaM": {
+                  "text": "The work on the WordPress ELEMENTOR site layout - completed quickly and with high quality. We recommend this specialist.",
+                  "title": "Elementor Layout",
+                  "client": "Olga M."
+                },
+                "marinaV": {
+                  "text": "I am very pleased with the completed order! The React website turned out just great. He worked quickly and efficiently, took into account all my wishes, and did everything within a tight deadline. It was very pleasant to communicate; he takes his work very responsibly.",
+                  "title": "React Website",
+                  "client": "Marina V."
+                },
+                "dmitryP": {
+                  "text": "We requested the layout for the website header and footer - very grateful to Nikolai for his professional and high-quality approach. Everything turned out great, just what we needed) There were adjustments from our side, we asked to add some elements, but those were also implemented quickly. Thank you very much, we will contact you again) Good luck!",
+                  "title": "HTML Layout",
+                  "client": "Dmitry P."
+                },
+                "igorS": {
+                  "text": "Everything is super. I am a very demanding and attentive client, and yet all corrections were made perfectly. Nikolai very calmly handled all my nitpicks and fulfilled everything. Satisfied with the work!",
+                  "title": "Layout",
+                  "client": "Igor S."
+                },
+                "artemN": {
+                  "text": "Nikolai handled the task of website layout and subsequent WordPress integration excellently. The site is quite complex, with many nuances, but all edits were made, and requests were considered. Without a doubt, I will contact him more than once. A decent contractor. Recommended.",
+                  "title": "WordPress Site Development",
+                  "client": "Artem N."
+                },
+                "sergeyL": {
+                  "text": "Work done perfectly! Asked for revisions - everything was done very quickly. Communication is top-notch, always available. Highly recommend!",
+                  "title": "Landing Page Adjustment",
+                  "client": "Sergey L."
+                },
+                "alinaB": {
+                  "text": "Thanks for the development! The site turned out modern and lightweight. Everything is adapted for mobile, really liked the approach — with attention to detail.",
+                  "title": "Turnkey Website",
+                  "client": "Alina B."
+                },
+                "victorG": {
+                  "text": "Good specialist. Did the design and layout exactly according to the technical specifications, considered all the details. Gave valuable advice during the process — it's clear he has experience. Will contact again.",
+                  "title": "Website Redesign",
+                  "client": "Victor G."
+                },
+                "ekaterinaR": {
+                  "text": "Nikolai made the site quickly and with high quality. Very cool work! It was important for me to meet the deadline — everything was done on time. Plus, the site turned out beautiful.",
+                  "title": "Landing Page Development",
+                  "client": "Ekaterina R."
+                },
+                "romanD": {
+                  "text": "The collaboration went excellently. The layout is neat, bug-free, adaptation — top-level. Satisfied with the work, already recommended to friends.",
+                  "title": "HTML/CSS Layout",
+                  "client": "Roman D."
+                },
+                "tatianaS": {
+                  "text": "Everything completed according to the task. Nikolai not only fulfilled the order but also suggested improvements. A very competent and polite specialist. Thank you!",
+                  "title": "Website Support",
+                  "client": "Tatiana S."
+                }
+              },
+
+
+
+            
+
+              "meta": {
+                "title": "Nikolay Zhidkov Portfolio",
+                "description": "Frontend Developer: building fast and responsive user interfaces using React, TypeScript, and modern UI technologies."
+              }
+            
+          
+        
+
+
+
+    
 }
